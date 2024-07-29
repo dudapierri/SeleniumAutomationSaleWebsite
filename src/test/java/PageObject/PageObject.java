@@ -17,7 +17,7 @@ public class PageObject {
         }
 
         this.browser.manage().timeouts()
-                .implicitlyWait(5, TimeUnit.SECONDS) // Toda vez que o selenium for buscar algo na página ele espera 5 segundos antes de disparar erro
+                .implicitlyWait(5, TimeUnit.SECONDS) // Toda vez que o selenium for buscar algo na página ele espera 5 segundos antes de disparar  o erro
                 .pageLoadTimeout(10, TimeUnit.SECONDS); // espera até 10 segundos para a página carregar
     }
     public void fechar(){
